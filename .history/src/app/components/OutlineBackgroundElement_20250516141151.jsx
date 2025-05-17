@@ -1,0 +1,13 @@
+import React from 'react'
+
+const OutlineBackgroundElement = ({ children, className='' }) => {
+  return (
+    <div className={`p-1 border-2 border-white rounded-3xl ${className}`}>
+        <div className="bg-white p-y text-web-blue rounded-3xl">
+            {children}
+        </div>
+    </div>
+  )
+}
+
+export default OutlineBackgroundElement
