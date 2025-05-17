@@ -1,9 +1,0 @@
-import React from 'react'
-
-const slideview = () => {
-  return (
-    <div className='p-web-heroslideview bg-web-navwhite flex justify-center items-center border-white border-4'>slideview</div>
-  )
-}
-
-export default slideview
